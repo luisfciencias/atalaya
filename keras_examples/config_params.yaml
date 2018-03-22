@@ -1,0 +1,14 @@
+general:
+    random_seed: 123
+    number_training_examples: 60000
+    number_testing_examples:  10000
+    size_input_vector: 784
+    number_classes: 10
+    units_layer1: 64
+    activation_layer1: 'relu'
+    units_layer2: 10
+    activation_layer2: 'softmax'
+    loss_function: 'categorical_crossentropy'
+    optimizer: 'sgd'
+    number_epochs: 50
+    batch_size: 32
